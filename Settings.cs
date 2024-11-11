@@ -27,8 +27,6 @@ namespace crawler
         }
         public bool GetDeepCrawl() { return DeepCrawl; }
 
-        HashSet<string> AlreadyStored = new HashSet<string>();
-
         int Depth = 50;
         public void SetDepth(int _dep)
         {

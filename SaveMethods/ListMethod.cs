@@ -45,7 +45,7 @@ namespace crawler.SaveMethods
                             {
                                 // in order to return all of the
                                 // found links inside a url, we
-                                // first create an object form 
+                                // first create an object from 
                                 // all of those links regardless
                                 // of them being of the same domain
                                 // or not. if we dont do this those
