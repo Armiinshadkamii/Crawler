@@ -24,7 +24,9 @@ found on a page.
 when you choose tree as your method of saving, you can see all of the links in a parent
 child manner. Meaning that for each link, you can see the parent link and also the children
 links. for example for this input url : https://farsnews.ir, the output is like this:
+![treeimg](https://github.com/user-attachments/assets/f7b64cc2-475a-4055-8386-fe4d01cbe850)
 ### List
 In this method of saving, parent and children of links are not shown. you just get a list of found
 links. for example for the same input as above, the output is similar to this:
+![listimg](https://github.com/user-attachments/assets/4ecdedcb-515f-4a2e-8318-67d7893e7130)
 #### The output format for both saving methods is in xml.

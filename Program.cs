@@ -7,7 +7,6 @@ using System.Xml;
 
 class Program
 {
-    // F:\Courses\C#\Crawler\crawler\Results
     static Uri url;
     static Settings settings ;
 
