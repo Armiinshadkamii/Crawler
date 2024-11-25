@@ -1,9 +1,7 @@
 ﻿using crawler;
 using crawler.DataSets;
 using crawler.SaveMethods;
-using crawler.UriOps;
 using System.Text;
-using System.Xml;
 
 class Program
 {
