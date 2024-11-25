@@ -4,20 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace crawler.DataSets
+namespace crawler.DataSets;
+public class SingleList
 {
-    public class SingleList
+    public string Parent;
+
+    public string Node;
+
+    public SingleList() { }
+
+    public SingleList(string node, string parent)
     {
-        public string Parent;
-
-        public string Node;
-
-        public SingleList() { }
-
-        public SingleList(string node, string parent)
-        {
-            Parent = parent;
-            Node = node;
-        }
+        Parent = parent;
+        Node = node;
     }
 }
+
