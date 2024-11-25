@@ -23,8 +23,8 @@ found on a page.
 ### Tree
 when you choose tree as your method of saving, you can see all of the links in a parent
 child manner. Meaning that for each link, you can see the parent link and also the children
-links.
+links. for example for this input url : https://farsnews.ir, the output is like this:
 ### List
 In this method of saving, parent and children of links are not shown. you just get a list of found
-links.
+links. for example for the same input as above, the output is similar to this:
 #### The output format for both saving methods is in xml.
