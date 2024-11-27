@@ -203,34 +203,5 @@ public class AskUser
         return userInput;
     }
 
-    public static int AskTimeOut(string msg)
-    {
-        bool flag = true;
-        int userInput = -1;
-
-        while (flag)
-        {
-            Console.WriteLine(msg);
-
-            try
-            {
-                userInput = int.Parse(Console.ReadLine());
-                if(userInput >= 0)
-                {
-                    flag = false;
-                }
-                else
-                {
-                    ConsoleDataDisplay.PrintError("input must be a positive number");
-                }
-            }
-            catch (Exception e)
-            {
-                ConsoleDataDisplay.PrintError(e.Message);
-            }
-        }
-
-        return userInput;
-    }
 }
 

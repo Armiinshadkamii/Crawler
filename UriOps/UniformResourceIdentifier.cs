@@ -5,16 +5,12 @@ using System.Text.RegularExpressions;
 namespace crawler.UriOps;
 public class UniformResourceIdentifier
 {
-    static HttpClient _httpClient = new HttpClient();
+    static HttpClient _httpClient = new HttpClient() {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
 
     // Constructors
     public UniformResourceIdentifier() { }
-
-    public static void SetTimeOut(int timeout)
-    {
-        _httpClient.Timeout = TimeSpan.FromSeconds(timeout);
-    }
-
     static string RemoveLastIndex(string _host)
     {
         int len = _host.Length;

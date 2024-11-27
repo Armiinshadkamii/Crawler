@@ -14,9 +14,6 @@ public class ListMethod
     public ListMethod(Settings s)
     {
         settings = s;
-
-        // Set the timeout for the http client that is going to be used.
-        UniformResourceIdentifier.SetTimeOut(settings.GetTimeout());
     }
 
     public async Task<HashSet<SingleList>> SingleListCrawlAsync(string seed)

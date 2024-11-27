@@ -14,8 +14,6 @@ public class TreeMethod
     public TreeMethod(Settings s)
     {
         settings = s;
-
-        UniformResourceIdentifier.SetTimeOut(settings.GetTimeout());
     }
 
     public async Task<HashSet<Tree>> CrawlAsync(string seedUrl)

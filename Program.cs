@@ -40,7 +40,6 @@ class Program
 
                 try
                 {
-
                     switch (method)
                     {
                         case 1:

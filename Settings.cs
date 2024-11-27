@@ -59,9 +59,6 @@ public class Settings
     }
 
     int TimeOut = 10;
-    public void SetTimeout(int _timeout) { TimeOut = _timeout; }
-    public int GetTimeout() { return TimeOut; }
-
     public HashSet<string> RetrievedChildren = new HashSet<string>();
 
     public int GetTotalLinks()
@@ -71,13 +68,7 @@ public class Settings
 
     public void Init()
     {
-        // request timeout
-
         this.url = new Uri(AskUser.AskUrl("Root URI:"));
-
-        int timeout = AskUser.AskTimeOut("Time out: (in seconds)");
-        SetTimeout(timeout);
-        //_httpClient.Timeout = TimeSpan.FromSeconds(timeout);
 
         int dep = AskUser.AskDepth(msg: "Set a depth: ( 0 for Deep crawl)");
 
